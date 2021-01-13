@@ -19,6 +19,7 @@ const Movies = () => {
     <div>
         {/*{code here}*/}
         <h1>Movies Page</h1>
+        {mappedMovie}
     </div>
   );
 };
