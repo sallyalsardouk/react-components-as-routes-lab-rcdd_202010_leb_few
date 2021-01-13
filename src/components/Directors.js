@@ -8,6 +8,18 @@ const Directors = () => {
       <h1>Directors Page</h1>
     </div>
   );
+   const mappedDirectors = directors.map(director => {
+    return (
+      <div>
+        <h2>Name: {director.name}</h2>
+        <p>Movies:
+          <ul>
+            {director.movies.map(movie=><li>{movie}</li>)}
+          </ul>
+        </p>
+      </div>
+    )
+  })
 }
 
 export default Directors
