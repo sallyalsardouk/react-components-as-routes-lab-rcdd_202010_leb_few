@@ -13,7 +13,8 @@ const Movies = () => {
           </ul>
         </p>
       
-      </div>)
+      </div>
+      )
   })
   return (
     <div>
