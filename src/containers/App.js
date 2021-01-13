@@ -14,7 +14,7 @@ const App = (props) => {
   return (
     <Router>
       {/*{code here}*/}
-      </NavBar>
+      <NavBar/>
       <Route exact path="/" component={Home} />
         <Route exact path="/actors" component={Actors} />
         <Route exact path="/directors" component={Directors} />
