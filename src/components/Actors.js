@@ -6,6 +6,7 @@ const Actors = () => {
     <div>
       {/*{code here}*/}
       <h1>Actors Page</h1>
+      {mappedActors}
     </div>
   );
   const mappedActors = actors.map(actor => {
