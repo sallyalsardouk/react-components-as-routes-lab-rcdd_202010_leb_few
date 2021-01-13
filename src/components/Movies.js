@@ -5,7 +5,8 @@ const Movies = () => {
   const mappedMovie=Movies.map(movies=>{
     return(
       <div>
-      <h2>{movie.name}</h2>
+      <h2>{movies.title}</h2>
+      
       
       </div>)
   })
