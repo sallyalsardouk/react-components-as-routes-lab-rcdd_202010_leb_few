@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Home = () => {
-  const mappedHome=Home.map
+  const mappedHome=Home.map(Home=>
+  )
   return (
     <div>
       {/*{code here}*/}
