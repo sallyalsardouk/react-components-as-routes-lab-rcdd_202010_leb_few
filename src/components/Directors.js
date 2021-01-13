@@ -3,7 +3,7 @@ import { directors } from '../data';
 
 const Directors = () => {
   
-   const mappedDirectors = directors.map(director => {
+    const mappedDirectors = directors.map(director => {
     return (
       <div>
         <h2>Name: {director.name}</h2>
@@ -17,8 +17,8 @@ const Directors = () => {
   })
   return (
     <div>
-      {/*{code here}*/}
       <h1>Directors Page</h1>
+      {mappedDirectors}
     </div>
   );
 }
