@@ -2,14 +2,14 @@ import React from 'react';
 import { movies } from '../data';
 
 const Movies = () => {
-  const mappedMovie=Movies.map(movies=>{
+  const mappedMovie=movies.map(movie=>{
     return(
       <div>
-      <h2>{movies.title}</h2>
-      <p>Time: {movies.time}</p>
+      <h2>{movie.title}</h2>
+      <p>Time: {movie.time}</p>
         <p>Genres:
           <ul>
-            {movies.genres.map(genre => <li>{genre}</li>)}
+            {movie.genres.map(genre => <li>{genre}</li>)}
           </ul>
         </p>
       
